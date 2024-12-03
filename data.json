@@ -1,0 +1,70 @@
+{
+    "agency": {
+      "name": "Dream Travels",
+      "address": "123 Main Street, Kyiv, Ukraine",
+      "phone": "+380 44 123 4567",
+      "email": "info@dreamtravels.ua",
+      "website": "https://dreamtravels.ua"
+    },
+    "tours": [
+      {
+        "id": 1,
+        "name": "Відпочинок у Карпатах",
+        "destination": "Карпати, Україна",
+        "duration": "5 днів",
+        "price": 3000,
+        "currency": "UAH",
+        "description": "Насолоджуйтеся природою Карпат із комфортом.",
+        "activities": ["Піші прогулянки", "Відвідини СПА", "Традиційна кухня"],
+        "availability": {
+          "start_date": "2024-12-15",
+          "end_date": "2025-01-15"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Мальдіви – райський відпочинок",
+        "destination": "Мале, Мальдіви",
+        "duration": "7 днів",
+        "price": 1500,
+        "currency": "USD",
+        "description": "Релакс на білосніжних пляжах Мальдів.",
+        "activities": ["Снорклінг", "Дайвінг", "Круїз на яхті"],
+        "availability": {
+          "start_date": "2024-12-20",
+          "end_date": "2025-03-01"
+        }
+      }
+    ],
+    "clients": [
+      {
+        "id": 101,
+        "name": "Олексій Іванов",
+        "email": "oleksii.ivanov@example.com",
+        "phone": "+380 67 123 4567",
+        "past_trips": [1]
+      },
+      {
+        "id": 102,
+        "name": "Марія Петренко",
+        "email": "maria.petrenko@example.com",
+        "phone": "+380 50 987 6543",
+        "past_trips": []
+      }
+    ],
+    "bookings": [
+      {
+        "booking_id": 1001,
+        "client_id": 101,
+        "tour_id": 2,
+        "booking_date": "2024-11-25",
+        "status": "confirmed",
+        "payment": {
+          "amount": 1500,
+          "currency": "USD",
+          "method": "credit_card"
+        }
+      }
+    ]
+  }
+  
