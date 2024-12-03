@@ -1,6 +1,8 @@
 import React from "react";
+import { useEffect } from "react";
 
 export function Header() {
+
   return (
     <div>
     <span className="Logo">
@@ -21,6 +23,13 @@ export function Header() {
 
 
 function App() {
+
+  useEffect(() => {
+    fetch('http://localhost:4000/')
+        .then(response => response.json())
+        .then(json => console.log(json))
+}, []);
+  
   return (
     <div className="App">
       <Header
