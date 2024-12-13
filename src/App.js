@@ -4,7 +4,9 @@ import { useEffect } from "react";
 export function Header() {
 
   return (
+  
     <div>
+    <div className="Header">
     <span className="Logo">
      logo 
     </span>
@@ -14,8 +16,26 @@ export function Header() {
       <a href="https://www.pryklad.com">Перейти на pryklad.com</a>
       </div>
     </section>
+    <span className="Button">start a Journey
+    </span>
     </div>
-  
+    <div>
+    <h2 className="text">
+      Discover the water
+    </h2>
+    <span>
+      From pristine waters to magestic
+      forests...we have it all
+    </span>
+    <sapn>
+      Saltwater Fishing
+      love fishing? Witch some of the best spote wvailable year-round 
+      from costline to the ceep sea you won't be short for choice
+      Marine Snorkelling
+      Go deep sea diving in some of the most pristine waters on the planet.  
+    </sapn>
+    </div>
+    </div>
     
     
   )

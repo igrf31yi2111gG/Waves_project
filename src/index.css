@@ -1,4 +1,5 @@
 body {
+  color:aliceblue;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -29,6 +30,25 @@ code {
 }
 
 .portfolio-item{
-  margin: 150px;
-  font-size: 80px;
+color:aliceblue
+}
+
+.Header{
+ display:flex;
+ justify-content: space-between;
+
+}
+
+.grid-item{
+  color:rgb(255, 255, 255)
+}
+
+.Button{
+  color:aquamarine;
+  margin: 5px;
+}
+
+.text{
+  color: aliceblue;
+  margin: 5px;
 }
