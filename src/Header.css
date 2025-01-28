@@ -1,0 +1,27 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .Logo{
+    color: aliceblue;
+    margin: 50px;
+    font-size: 40px;
+  }
+
+  .grid-item{
+    display:flex;
+    font-weight: bold;
+    color: aliceblue;
+    gap: 10px;
+  }
+
+  .portfolio_text{
+    
+  }
+
+  a {
+    color: aliceblue;
+    text-decoration: none; /* Remove underline */
+  }

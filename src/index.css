@@ -52,3 +52,9 @@ color:aliceblue
   color: aliceblue;
   margin: 5px;
 }
+
+.cards {
+  margin: 200px;
+  background-color: rgb(227, 240, 240);
+  color: black;
+}
